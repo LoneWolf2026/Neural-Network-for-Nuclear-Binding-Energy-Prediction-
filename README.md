@@ -1,2 +1,9 @@
 # Neural-Network-for-Nuclear-Binding-Energy-Prediction-
-I am building a neural network to predict the Nuclear Binding Energy of every element on the periodic table. I will train the neural network using the **Atomic Mass Evaluation (AME) 2020** data set, composed entirely of experimentally verified atomic masses,numbers, and nuclear binding energies. The results of this neural network will be compared with the results of the Semi-Empirical Mass Formula as a bench mark for accuracy.
+This project is a neural network trained to predict the Nuclear Binding Energy of every element on the periodic table. The results of this neural network will be compared with the results of the Semi-Empirical Mass Formula as a bench mark for accuracy.
+
+
+## References
+This project uses data from:
+- Wang, Meng, et al. “The AME 2020 Atomic Mass Evaluation (I). Evaluation of Input Data, and Adjustment Procedures.” *Chinese Physics C*, vol. 45, no. 3, 2021, article 030001.
+
+The dataset is part of the Atomic Mass Evaluation 2020 (AME2020).
