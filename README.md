@@ -1,2 +1,2 @@
 # Neural-Network-for-Nuclear-Binding-Energy-Prediction-
-We are going to predict Nuclear Binding Energy using a residual neural network.
+I am building a neural network to predict the Nuclear Binding Energy of every element on the periodic table. I will train the neural network using the **Atomic Mass Evaluation (AME) 2020** data set, composed entirely of experimentally verified atomic masses,numbers, and nuclear binding energies. The results of this neural network will be compared with the results of the Semi-Empirical Mass Formula as a bench mark for accuracy.
