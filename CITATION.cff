@@ -9,6 +9,8 @@ version: "1.0.0"
 date-released: 2026-3-28
 url: "https://github.com/LoneWolf2026/Neural-Network-for-Nuclear-Binding-Energy-Prediction-"
 
+type: dataset
+
 references:
   - authors:
       - family-names:  Wang
