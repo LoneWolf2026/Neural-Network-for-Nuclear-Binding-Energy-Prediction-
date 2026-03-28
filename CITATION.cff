@@ -3,12 +3,12 @@ message: "If you use this project, please cite it as below."
 
 title: "Neural Network for Nuclear Binding Energy Prediction"
 version: "1.0.0"
-date-released: 'unreleased'
+date-released: 2026-3-28
   
 references:
   - authors:
-      - family-names: Wang
-        given-names: Meng
+      - family-names:  Wang
+        given-names:  Meng
     title: "The AME 2020 Atomic Mass Evaluation (I). Evaluation of Input Data, and Adjustment Procedures"
     journal: "Chinese Physics C"
     year: 2021
