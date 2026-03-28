@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this project, please cite it as below."
+message: "If you use this software, please cite it as below."
 
 authors:
 - family-names: "Zhang"
@@ -8,8 +8,6 @@ title: "Neural Network for Nuclear Binding Energy Prediction"
 version: "1.0.0"
 date-released: 2026-3-28
 url: "https://github.com/LoneWolf2026/Neural-Network-for-Nuclear-Binding-Energy-Prediction-"
-
-type: dataset
 
 references:
   - authors:
