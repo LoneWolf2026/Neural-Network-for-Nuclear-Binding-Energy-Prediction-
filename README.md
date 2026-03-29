@@ -12,7 +12,7 @@ _Data_Processor_ is the data processor custom built to process the data from bot
 
 ## References
 This project uses data sets from: 
-- Huang W.J., et al. "The AME 2016 atomic mass evaluation (I). Evaluation of input data; and adjustment procedures." *Chinese Physics C*, vol. 41, no. 3, 2017, article 030002. 
-- Huang W.J., et al. “The AME 2020 Atomic Mass Evaluation (I). Evaluation of Input Data, and Adjustment Procedures.” *Chinese Physics C*, vol. 45, no. 3, 2021, article 030002.
-
-
+- Huang W.J., et al. "The AME 2016 atomic mass evaluation (I). Evaluation of input data; and adjustment procedures" *Chinese Physics C*, vol. 41, no. 3, 2017, article 030002.
+- Benzaid D., et al. "Bethe–Weizsäcker semi-empirical mass formula coefficients: 2019 update based on AME2016" *Nuclear Science and Techniques*, vol. 31, 2020, article 9. https://doi.org/10.1007/s41365-019-0718-8
+- Huang W.J., et al. “The AME 2020 Atomic Mass Evaluation (I). Evaluation of Input Data, and Adjustment Procedures” *Chinese Physics C*, vol. 45, no. 3, 2021, article 030002.
+- Gjorgievska S., et al. "Revision of the semi-empirical mass formula coefficients using the AME2020 database" *Nuclear Engineering and Design*, vol. 426, 2024, article 113403. https://doi.org/10.1016/j.nucengdes.2024.113403
