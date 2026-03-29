@@ -8,11 +8,3 @@ title: "Neural Network for Nuclear Binding Energy Prediction"
 version: "1.0.0"
 date-released: 2026-3-28
 url: "https://github.com/LoneWolf2026/Neural-Network-for-Nuclear-Binding-Energy-Prediction-"
-
-references:
-  - authors:
-      - family-names:  Wang
-        given-names:  Meng
-    title: "The AME 2020 Atomic Mass Evaluation (I). Evaluation of Input Data, and Adjustment Procedures"
-    journal: "Chinese Physics C"
-    year: 2021
