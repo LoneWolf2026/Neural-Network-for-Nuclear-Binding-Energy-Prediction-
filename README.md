@@ -10,6 +10,25 @@ This project uses the following Python scripts (file type ommited):
 
 _Data_Processor_ is the data processor custom built to process the data from both AME 2016 and AME 2020. _Semi-Empirical_Mass_Formula_ is the script encoding the Semi-Empirical Mass Formula.  Binding energy calculations for data from both AME 2016 and AME 2020 are included in this script. _Nuclear_Binding_Energy_NeuralNet_ is the neural network itself. It is trained on the AME 2020 data set.
 
+### Semi Empirical Mass Formula(s)
+
+$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z^2}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \, a_p \frac{1}{A^{1/2}}\$ (1)
+
+Source: Benzaid D., et al. (2020)
+
+$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \, a_p \frac{1}{\sqrt{A}}\$ (2)
+
+Source: Gjorgievska S., et al. (2024)
+
+**Notes**
+- N = Number of Neutrons
+- Z = Atomic Number/Number of Protons
+- A = Mass Number
+- $\delta$ = ±1 depending on nucleon parity
+
+### Modeling Assumptions
+- All coefficients provided by both Benzaid D., et al. (2020) and Gjorgievska S., et al. (2024) are calculated using nuclei with A $\geq$ 50
+
 ## References
 This project uses data sets from: 
 - Huang W.J., et al. "The AME 2016 atomic mass evaluation (I). Evaluation of input data; and adjustment procedures" *Chinese Physics C*, vol. 41, no. 3, 2017, article 030002.
