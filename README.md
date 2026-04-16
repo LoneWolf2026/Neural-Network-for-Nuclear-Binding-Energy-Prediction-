@@ -1,11 +1,21 @@
 # Neural-Network-for-Nuclear-Binding-Energy-Prediction
 
 ## Set Up:
-Set up will assume the following:
-- Google Colab is being used
-- Google Drive for storing files
+The Set Up will involve Google Colab as PyTorch is preinstalled and every line of code was written under this assumption. Google Drive is used to store the files as well.
 
-(ReadMe In Progress)
+**Step 0: (Only if you do not have a Google Colab Account)**  
+Search Google Colab on your browser and click on the corresponding link. Sign up with any account you have available that Google accepts.
+
+**Step 1:**  
+Download _AME_Dataset(2016).txt_, _AME_Dataset(2020).txt_, _Data_Processor_, _Nuclear_Binding_Energy_NeuralNet_, and _Semi_Empirical_Mass_Formula_ from this repository and save them into the same Google Drive folder.
+
+**Step 2:**
+Open _Data_Processor_ and change file paths for _AME_Dataset(2016).txt_ and _AME_Dataset(2020).txt_ to the current file path (unless your file path is the same). At the bottom of _Data_Processor_ is code to save the processed data into CSV files, change the file path to where you want to store the CSV files.
+
+**Step 3:**
+Open _Semi_Empirical_Mass_Formula_ and change the file path in both read_csv() functions to the current respective paths of your CSV files. Open _Nuclear_Binding_Energy_NeuralNet_ and do the same (there's only one read_csv() function in this file)
+
+(ReadMe in progress)
 
 ## Methodology
 
