@@ -18,7 +18,7 @@ Open _Semi_Empirical_Mass_Formula_ and change the file path in both read_csv() f
 (ReadMe in progress)
 
 ## Background
-Measuring the binding energy of elements and their isotopes is a core mission of Nuclear Physics. However, the experimental determination of binding energy is a costly process: involving expensive measurement equipment and particle accelerators. Additionally, as the number of nucleons increase in the nucleus, binding energy becomes much harder to determine due to a variety of factors including, but not limited to, short half-lives or highly stable nuclei. Hence, to measure binding energy for heavy elements and find new ones the costs are likely to only increase. Neural Networks can help predict the binding energy of existing and unknown isotopes without needing to experimentally verify the binding energy through trial and error.
+Measuring the binding energy of elements and their isotopes is a core mission of Nuclear Physics. However, the experimental determination of binding energy is a costly process: involving expensive measurement equipment and particle accelerators. Additionally, as the number of nucleons increase in the nucleus, binding energy becomes much harder to determine due to a variety of factors including, but not limited to, short half-lives or highly stable nuclei. Hence, to measure binding energy for heavy elements and find new ones the costs are likely to only increase. Neural Networks can help predict the binding energy of existing and unknown isotopes without needing to experimentally verify the binding energy through trial and error. A similar approach was already demonstrated in 2022, with the creation of AlphaFold by Google Deepmind to predict the structure of proteins. This project aims to explore a similar application of Neural Networks to nuclear binding energy prediction.
 
 
 ## Methodology
@@ -43,6 +43,7 @@ Source: Gjorgievska S., et al. (2024)
 - All coefficients provided by both Benzaid D., et al. (2020) and Gjorgievska S., et al. (2024) are calculated using nuclei with A $\geq$ 50. The original authors of both papers found that doing so allowed their respective SEMFs to best fit experimental data at time of publishing.
 - Each paper used slightly different SEMFs, therefore both are encoded in _Semi-Empirical Mass Formula_ to ensure accurate reproductions of binding energy predictions from both papers.
 - Gjorgievska S., et al. (2024) explicitly listed how the sign of the parity term was determined, namely $\delta$ is either 1, -1, or 0 based on the value of N and Z. This concept is invariant across all variations of the SEMF, therefore the same is assumed for Benzaid D., et al. (2020) even though it does not explicitly state this.
+- Negative energy calculations are omitted from final graph.
 
 ## File Structure
 ### Data Sets
