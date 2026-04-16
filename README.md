@@ -17,8 +17,11 @@ Open _Semi_Empirical_Mass_Formula_ and change the file path in both read_csv() f
 
 (ReadMe in progress)
 
-## Methodology
+## Background
+Measuring the binding energy of elements and their isotopes is a core mission of Nuclear Physics. However, the experimental determination of binding energy is a costly process: involving expensive measurement equipment and particle accelerators. Additionally, as the number of nucleons increase in the nucleus, binding energy becomes much harder to determine due to a variety of factors including, but not limited to, short half-lives or highly stable nuclei. Hence, to measure binding energy for heavy elements and find new ones the costs are likely to only increase. Neural Networks can help predict the binding energy of existing and unknown isotopes without needing to experimentally verify the binding energy through trial and error.
 
+
+## Methodology
 
 ### Semi Empirical Mass Formulas (SEMFs)
 
