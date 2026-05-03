@@ -18,10 +18,15 @@ Open _Semi_Empirical_Mass_Formula_ and change the file path in both read_csv() f
 (ReadMe in progress)
 
 ## Background
-Measuring the binding energy of elements and their isotopes is a core mission of Nuclear Physics. However, the experimental determination of binding energy is a costly process: involving expensive measurement equipment and particle accelerators. Additionally, as the number of nucleons increase in the nucleus, binding energy becomes much harder to determine due to a variety of factors including, but not limited to, short half-lives or highly stable nuclei. Hence, to measure binding energy for heavy elements and find new ones the costs are likely to only increase. Neural Networks can help predict the binding energy of existing and unknown isotopes without needing to experimentally verify the binding energy through trial and error. A similar approach was already demonstrated in 2022, with the creation of AlphaFold by Google Deepmind to predict the structure of proteins. This project aims to explore a similar application of Neural Networks to nuclear binding energy prediction.
+Measuring the binding energy of elements and their isotopes is a core mission of Nuclear Physics. However, the experimental determination of binding energy is a costly process: involving expensive measurement equipment and particle accelerators. Additionally, as the number of nucleons increase in the nucleus, binding energy becomes much harder to determine due to a variety of factors including, but not limited to, short half-lives or highly stable nuclei. Hence, measuring binding energy for heavier elements and finding new elements all together are likely equally if not more expensive. Neural Networks can help predict the binding energy of existing and unknown isotopes without costly trial and error experiments. A similar approach was already demonstrated in 2022, with the creation of AlphaFold by Google Deepmind to predict the structure of proteins. Whereas 150,000 protein structures were determined through pure experimentation, AlphaFold predicted over 200 million protein structures in a matter of months. This project aims to explore a similar application of neural networks for predicting Nuclear Binding Energy.
 
 
 ## Methodology
+
+### The Neural Network
+The neural network found in _Nuclear_Binding_Energy_NeuralNet_ is a simple, two hidden layer, standard neural network. The only benchmark for quality of this neural network is the size of the loss function at the end of training.
+
+To test the accuracy of this neural network, we will compare its predictions to the Semi-Empirical Mass Formula. The formula encodes the Liquid Drop Model of a nucleus, one of the first models of the atom's nucleus. We will use coefficients and versions of the formula derived in 2020 and 2024 from the _AME 2016_ and _AME 2020_ data sets respectively.
 
 ### Semi Empirical Mass Formulas (SEMFs)
 
@@ -45,24 +50,6 @@ Source: Gjorgievska S., et al. (2024)
 - Gjorgievska S., et al. (2024) explicitly listed how the sign of the parity term was determined, namely $\delta$ is either 1, -1, or 0 based on the value of N and Z. This concept is invariant across all variations of the SEMF, therefore the same is assumed for Benzaid D., et al. (2020) even though it does not explicitly state this.
 - Negative energy calculations are omitted from final graph.
 
-## File Structure
-### Data Sets
-The _AME 2016_ and _AME 2020_ data sets used in this project are stored in this folder.
-
-### Python Scripts:
-**Data_Processor**  
-The custom, data pre-processing script built for this project. It was designed based on the structure of _AME 2016_ and _AME 2020_.
-
-**Semi-Empirical_Mass_Formula**  
-The script encoding the two Semi-Empirical Mass Formulas used by Benzaid D., et al. (2020) and Gjorgievska S., et al. (2024) respectively. Binding energy calculations for data from both _AME 2016_ and _AME 2020_ are included in this script.
-
-**Nuclear_Binding_Energy_NeuralNet**  
-The neural network itself, trained and tested using the _AME 2020_ data set.
-
-### Other
-**Drafts**  
-This folder is used to store old files that were renamed in the process of completing this project and were subsequently treated as separate files by GitHub
-- _Nuclear_Binding_Energy_ResNet_ is the old name for _Nuclear_Binding_Energy_NeuralNet_
 
 ## References
 - Huang W.J., et al. "The AME 2016 atomic mass evaluation (I). Evaluation of input data; and adjustment procedures" *Chinese Physics C*, vol. 41, no. 3, 2017, article 030002.
