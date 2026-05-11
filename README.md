@@ -48,7 +48,8 @@ Source: Gjorgievska S., et al. (2024)
 - All coefficients provided by both Benzaid D., et al. (2020) and Gjorgievska S., et al. (2024) are calculated using nuclei with A $\geq$ 50. The original authors of both papers found that doing so allowed their respective SEMFs to best fit experimental data at time of publishing.
 - Each paper used slightly different SEMFs, therefore both are encoded in _Semi-Empirical Mass Formula_ to ensure accurate reproductions of binding energy predictions from both papers.
 - Gjorgievska S., et al. (2024) explicitly listed how the sign of the parity term was determined, namely $\delta$ is either 1, -1, or 0 based on the value of N and Z. This concept is invariant across all variations of the SEMF, therefore the same is assumed for Benzaid D., et al. (2020) even though it does not explicitly state this.
-- Negative energy calculations are omitted from final graph.
+- Negative energy calculations are omitted from final graphs.
+- Percent Errors in Prediction larger than 2% are omitted from final graphs. This is purely for presentation, as percent errors larger than 2% skew the graphs such that any errors smaller than 2% are effectively indistinguishable from one another.
 
 
 ## References
