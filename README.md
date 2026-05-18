@@ -31,11 +31,11 @@ To test the accuracy of this neural network, we will compare its predictions to 
 
 ### Semi Empirical Mass Formulas (SEMFs)
 
-$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z^2}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \, a_p \frac{1}{A^{1/2}}\$  (1)
+$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z^2}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \ a_p \frac{1}{A^{1/2}}\$  (1)
 
 Source: Benzaid D., et al. (2020)
 
-$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \, a_p \frac{1}{\sqrt{A}}\$  (2)
+$\ B(A,Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_\text{sym} \frac{(A-2Z)^2}{A} + \delta \ a_p \frac{1}{\sqrt{A}}\$  (2)
 
 Source: Gjorgievska S., et al. (2024)
 
